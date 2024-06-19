@@ -1,0 +1,62 @@
+.usercard{
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.usercard {
+    background: linear-gradient(to bottom, #0077be, #3b8df2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .usercard_name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .usercard_list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .usercard_item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .usercard_item span:first-child {
+    font-weight: bold;
+  }
+  
+  .usercard button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    color: white;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  }
+  
+  .usercard button:hover {
+    background: linear-gradient(144deg, #5b42f3, #af40ff 50%, #00ddeb);
+  }
+  
+  .usercard button:active {
+    transform: translate(2px, 2px);
+  }
+  
